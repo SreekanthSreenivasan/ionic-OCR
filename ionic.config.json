@@ -1,0 +1,7 @@
+{
+  "name": "ocr-reader",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}

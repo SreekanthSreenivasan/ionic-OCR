@@ -1,0 +1,27 @@
+
+<ion-content [fullscreen]="true">
+  <ion-header collapse="condense">
+    <ion-toolbar>
+      <ion-title >OCR Reader</ion-title>
+    </ion-toolbar>
+  </ion-header>
+
+  <ion-header>
+  <ion-toolbar>
+    <ion-title>
+      OCR Camera
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-button expand="block" (click)="takePicture()">Take Picture</ion-button>
+  <ion-content>
+
+    <div *ngIf="ocrResult">
+      <h2>OCR Result:</h2>
+      <b>{{ ocrResult}}</b>
+    </div>
+  </ion-content>
+</ion-content>
+</ion-content>
